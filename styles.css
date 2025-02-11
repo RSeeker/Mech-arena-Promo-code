@@ -1,0 +1,520 @@
+/* Heading 1 Styling - Gaming Look */
+h1 {
+  font-size: 3rem;
+  font-family: 'Press Start 2P', cursive; /* Gaming font */
+  color: #fff4fb; /* Neon pink color */
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0px 0px 10px rgba(255, 0, 157, 0.8), 0px 0px 20px rgba(255, 0, 157, 0.6); /* Neon glow */
+  transition: text-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for h1 */
+h1:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+  text-shadow: 0px 0px 20px rgba(255, 0, 157, 1), 0px 0px 30px rgba(255, 0, 157, 0.8); /* Stronger glow */
+}
+
+/* Navigation Bar Styling - Gaming Look */
+nav {
+  background-color: #111; /* Dark background */
+  padding: 15px 0;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6); /* Subtle shadow for depth */
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #00ff88; /* Neon green */
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 20px;
+  display: inline-block;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-shadow: 0px 0px 10px rgba(0, 255, 136, 0.8); /* Glowing text */
+}
+
+/* Hover Effect for Navigation Links */
+nav ul li a:hover {
+  background: linear-gradient(to right, #00ff88, #ff0066, #ffcc00); /* Neon gradient */
+  color: white;
+  transform: scale(1.1); /* Slight zoom effect */
+  text-shadow: 0px 0px 20px rgb(255, 255, 255), 0px 0px 30px rgb(255, 255, 255); /* Stronger glow */
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  nav ul {
+    padding-left: 0;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+/* Basic Paragraph Styling - Gaming Look */
+p {
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+  color: #ffffff;
+  line-height: 1.6;
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0 15px;
+  background-color: #131111; /* Dark background for contrast */
+  border-left: 4px solid #85088a; /* Neon pink left border */
+  text-shadow: 0px 0px 8px rgb(255, 0, 221); /* Subtle glowing text */
+}
+
+/* Indentation for paragraphs */
+p.indented {
+  text-indent: 30px;
+}
+
+/* Paragraphs with Background */
+p.bg {
+  background-color: #222; /* Darker background */
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px rgba(0, 255, 136, 0.3); /* Glowing shadow */
+}
+
+/* Style for Links inside Paragraphs */
+p a {
+  color: #3498db; /* Bright blue */
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+  color: #ffcc00; /* Change color on hover */
+}
+
+/* H2 Styling - Gaming Look */
+h2 {
+  font-size: 36px;
+  font-family: 'Press Start 2P', cursive;
+  color: #3498db; /* Neon blue */
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0px 0px 10px rgba(52, 152, 219, 0.8), 0px 0px 20px rgba(52, 152, 219, 0.6);
+}
+
+/* Hover effect for h2 */
+h2:hover {
+  text-shadow: 0px 0px 20px rgba(52, 152, 219, 1), 0px 0px 30px rgba(52, 152, 219, 0.8);
+  transform: scale(1.05);
+}
+
+/* Image Styling - Gaming Look */
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  border: 5px solid #ff00ff; /* Neon pink border */
+  box-shadow: 0px 0px 20px rgba(255, 0, 255, 0.6); /* Neon glow */
+}
+
+/* Button Styling - Gaming Look */
+.button {
+  padding: 12px 20px;
+  background-color: #ff0066; /* Neon red */
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  text-shadow: 0px 0px 8px rgba(255, 0, 102, 0.8); /* Neon glow */
+}
+
+.button:hover {
+  background-color: #ffcc00; /* Neon yellow */
+  transform: scale(1.1);
+  box-shadow: 0px 0px 20px rgba(255, 204, 0, 1); /* Glowing effect */
+}
+
+.button:active {
+  background-color: #e74c3c; /* Darker red when clicked */
+  box-shadow: 0px 0px 25px rgba(231, 76, 60, 1);
+}
+
+/* General Reset for Margin and Padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and Background - Gaming Look */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #121212; /* Dark background for a gaming feel */
+  color: white; /* White text for contrast */
+}
+
+/* Responsive Navigation Bar */
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+}
+/* Rainbow Effect on Hover (for headers like h3) */
+h3 {
+  font-family: 'Press Start 2P', cursive; /* Retro gaming font */
+  font-size: 10px;
+  text-align: center;
+  margin: 50px;
+  padding: 10px;
+  transition: all 0.3s ease; /* Smooth transition */
+  color: #fff; /* Default white color */
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5); /* Subtle glow for default state */
+}
+
+/* Rainbow Hover Effect */
+h3:hover {
+  color: transparent; /* Make the text color transparent */
+  background-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet); /* Rainbow gradient */
+  background-clip: text; /* Clip the background to the text */
+  -webkit-background-clip: text; /* For webkit browsers */
+  text-decoration: underline;
+  animation: rainbowAnimation 3s linear infinite; /* Rainbow animation */
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0), 0px 0px 30px rgb(255, 0, 55); /* Neon glow effect */
+}
+
+/* Keyframe animation for rainbow effect */
+@keyframes rainbowAnimation {
+  0% { background-position: 0% 0%; }
+  50% { background-position: 100% 100%; }
+  100% { background-position: 0% 0%; }
+}
+
+/* Extra glow effect when hovering */
+h3:hover {
+  transform: scale(1.1); /* Slight zoom effect */
+  box-shadow: 0px 0px 20px rgb(255, 0, 13), 0px 0px 30px rgb(102, 0, 0); /* Glowing effect */
+}
+
+
+/* Keyframe Animation for Rainbow Effect */
+@keyframes rainbow {
+  0% { background-position: 0% 0%; }
+  50% { background-position: 100% 100%; }
+  100% { background-position: 0% 0%; }
+}
+
+/* Copy Button */
+#copyButton {
+  padding: 12px 25px; /* Slightly larger padding */
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 8px; /* Rounded corners */
+  font-size: 16px; /* Larger text size for impact */
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.8); /* Neon glow effect */
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+/* Hover Effect for Copy Button */
+#copyButton:hover {
+  background-color: #45a049; /* Darker green */
+  transform: scale(1.05); /* Slightly enlarges the button on hover */
+  box-shadow: 0 0 15px #00ffb7; /* Neon green glow */
+}
+
+/* Active State (when clicked) */
+#copyButton:active {
+  background-color: #388e3c; /* Darker green when pressed */
+  box-shadow: 0 0 20px #00ffb7; /* Glowing effect on active */
+}
+
+/* Image Styling */
+img {
+  max-width: 100%; /* Image will scale within the container */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 8px; /* Adds a rounded border to the image */
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3); /* Subtle glowing effect */
+}
+
+/* Link Styles */
+a {
+  text-decoration: none; /* No underline */
+  color: #00bcd4; /* Bright cyan */
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Link Hover Effect */
+a:hover {
+  color: #ff9800; /* Orange color on hover */
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Link Active State (when clicked) */
+a:active {
+  color: #ff5722; /* Darker orange when clicked */
+}
+
+/* Visited Link Style */
+a:visited {
+  color: #9c27b0; /* Purple color for visited links */
+}
+
+/* Make the link look like a button */
+a.button {
+  display: inline-block;
+  padding: 12px 25px; /* Larger padding for the button look */
+  background-color: #00bcd4; /* Cyan background */
+  color: white; /* White text */
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px; /* Rounded corners */
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  box-shadow: 0 0 8px rgba(0, 188, 212, 0.6); /* Glow effect */
+}
+
+/* Button Hover Effect */
+a.button:hover {
+  background-color: #0097a7; /* Darker cyan on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+  box-shadow: 0 0 20px #00bcd4; /* Glowing effect */
+}
+
+/* Button Active State (when clicked) */
+a.button:active {
+  background-color: #007c8e; /* Even darker cyan when clicked */
+  box-shadow: 0 0 25px #00bcd4; /* Stronger glow on click */
+}
+
+/* Copy Button with Neon Glow */
+.copy-button {
+  background-color: #00bcd4; /* Cyan background */
+  color: white;
+  border: none;
+  padding: 12px 25px; /* Larger padding */
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 188, 212, 0.8); /* Glowing effect */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+/* Copy Button Hover Effect */
+.copy-button:hover {
+  background-color: #00ffb7; /* Neon green glow on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+  box-shadow: 0 0 20px #00ffb7; /* Glowing effect */
+}
+
+/* Copy Button Active State */
+.copy-button:active {
+  background-color: #00ffa2; /* Even brighter when clicked */
+  box-shadow: 0 0 25px #00ffb7; /* Strong glowing effect */
+}
+
+  
+  /* Downloade button */
+
+
+  .download-button {
+    background: linear-gradient(45deg, #4caf50, #ff9800); /* Gradient background for a vibrant effect */
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effect with Gaming Look */
+.download-button:hover {
+    background: linear-gradient(45deg, #ff9800, #4caf50); /* Reversed gradient on hover */
+    transform: scale(1.1); /* Slight zoom effect */
+    box-shadow: 0 0 15px 5px rgba(255, 152, 0, 0.8), 0 0 20px 8px rgba(76, 175, 80, 0.8); /* Glowing effect */
+    color: #fff;
+}
+
+/* Optionally, adding a subtle glowing outline on focus (for accessibility and gaming feel) */
+.download-button:focus {
+    outline: none;
+    box-shadow: 0 0 12px 4px rgba(255, 152, 0, 0.8); /* Glowing outline */
+}
+
+
+
+
+
+/* Center the search bar container */
+.gaming-search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto; /* Smaller margin */
+}
+
+/* Style the search input */
+.gaming-search-bar {
+  width: 400px; /* Even smaller width */
+  height: 30px; /* Smaller height */
+  padding: 4px 8px; /* Smaller padding */
+  font-size: 12px; /* Smaller text size */
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  background: #1e1e2f;
+  border: 2px solid #4caf50;
+  border-radius: 4px; /* More compact rounded corners */
+  box-shadow: 0 0 6px #4caf50; /* Smaller glowing effect */
+  outline: none;
+  transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+/* Focus effect for the input */
+.gaming-search-bar:focus {
+  border-color: #ffc400;
+  box-shadow: 0 0 8px #ff0000; /* Slightly stronger glow on focus */
+}
+
+/* Style the search button */
+.gaming-search-button {
+  height: 30px; /* Match input height */
+  width: 35px; /* Even smaller button width */
+  margin-left: -5px; /* Slight overlap */
+  background: linear-gradient(45deg, #4caf50, #0066ff);
+  border: none;
+  color: #fff;
+  font-size: 16px; /* Smaller icon size */
+  font-weight: bold;
+  border-radius: 4px; /* Match input corner style */
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, background 0.3s ease-in-out;
+}
+
+/* Hover effect on button */
+.gaming-search-button:hover {
+  transform: scale(1.1); /* Slight zoom effect */
+  background: linear-gradient(45deg, #ff9800, #4caf50);
+}
+
+
+
+/* General Paragraph Styling */
+p {
+  font-size: 16px;              /* Normal font size for paragraphs */
+  font-family: 'Roboto', sans-serif; /* Modern and gaming-friendly font */
+  line-height: 1.6;             /* Adequate line spacing for readability */
+  color: #e1e1e1;               /* Light color for text */
+  margin: 15px 0;               /* Spacing above and below paragraphs */
+  padding: 0 20px;              /* Padding inside paragraphs */
+  text-align: justify;          /* Justify text for better alignment */
+  background-color: rgba(0, 0, 0, 0); /* Dark background for the paragraph */
+  border-left: 5px solid #ff0055; /* Gaming-themed border */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.76); /* Glowing shadow */
+  transition: all 0.3s ease;     /* Smooth transition for hover effects */
+}
+
+
+
+/* Make Images Responsive with Gaming Style */
+.responsive-img {
+  width: 100px;                  /* Set image width to 100% of the container */
+  height: 50px;                 /* Maintain the aspect ratio */
+  display: block;               /* Prevent any space below the image */
+  margin: 15px 0;               /* Add some space above and below the images */
+  border-radius: 10px;          /* Rounded corners for a sleek look */
+  box-shadow: 0 4px 15px rgb(0, 0, 0); /* Green glowing shadow */
+  transition: transform 0.3s ease; /* Add smooth zoom effect on hover */
+}
+
+/* Hover Effect on Images */
+.responsive-img:hover {
+  transform: scale(1.05);       /* Slight zoom effect for interactivity */
+}
+
+/* For smaller screen sizes */
+@media (max-width: 100px) {
+  p {
+    font-size: 14px;             /* Slightly smaller font on mobile devices */
+    padding: 0 10px;             /* Reduce padding on smaller screens */
+  }
+
+  .responsive-img {
+    width: 100%;                 /* Ensure images are always responsive */
+    max-width: 100%;             /* Prevent images from exceeding the width */
+    border-radius: 5px;          /* Round corners less on mobile */
+  }
+}
+
+/* Make Images Responsive with Smaller Size */
+.responsive-img {
+  width: 80%;                 /* Set the image width to 80% of its container */
+  height: auto;               /* Maintain the aspect ratio */
+  display: block;             /* Prevent any space below the image */
+  margin: 10px auto;          /* Center the image with some space above and below */
+  border-radius: 10px;        /* Rounded corners for a sleek look */
+  box-shadow: 0 4px 15px rgba(0, 255, 0, 0.7); /* Green glowing shadow */
+  transition: transform 0.3s ease; /* Add smooth zoom effect on hover */
+}
+
+/* For smaller screen sizes */
+@media (max-width: 768px) {
+  .responsive-img {
+    width: 90%;                 /* Ensure images are slightly smaller on mobile devices */
+    max-width: 100%;            /* Prevent images from exceeding the width */
+  }
+}
+
+
+/* Glowing Animation */
+@keyframes glow {
+  from {
+      text-shadow: 0 0 10px #5c38ff, 0 0 20px #120079;
+  }
+  to {
+      text-shadow: 0 0 20px #ff0000, 0 0 40px #ff0000;
+  }
+ 
+}
+
